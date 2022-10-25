@@ -13,6 +13,10 @@
 		E4CA003329083F1E00BA3D49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4CA003129083F1E00BA3D49 /* Main.storyboard */; };
 		E4CA003529083F1F00BA3D49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4CA003429083F1F00BA3D49 /* Assets.xcassets */; };
 		E4CA003829083F1F00BA3D49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4CA003629083F1F00BA3D49 /* LaunchScreen.storyboard */; };
+		E4CA003F29083F8E00BA3D49 /* SCNVector3.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CA003E29083F8E00BA3D49 /* SCNVector3.swift */; };
+		E4CA004129083FA300BA3D49 /* SCNNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CA004029083FA300BA3D49 /* SCNNode.swift */; };
+		E4CA004329083FCE00BA3D49 /* Pulsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CA004229083FCE00BA3D49 /* Pulsing.swift */; };
+		E4CA004529083FE900BA3D49 /* PresentationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CA004429083FE900BA3D49 /* PresentationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +27,10 @@
 		E4CA003229083F1E00BA3D49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4CA003429083F1F00BA3D49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E4CA003729083F1F00BA3D49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E4CA003E29083F8E00BA3D49 /* SCNVector3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNVector3.swift; sourceTree = "<group>"; };
+		E4CA004029083FA300BA3D49 /* SCNNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCNNode.swift; sourceTree = "<group>"; };
+		E4CA004229083FCE00BA3D49 /* Pulsing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pulsing.swift; sourceTree = "<group>"; };
+		E4CA004429083FE900BA3D49 /* PresentationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +69,10 @@
 				E4CA003129083F1E00BA3D49 /* Main.storyboard */,
 				E4CA003429083F1F00BA3D49 /* Assets.xcassets */,
 				E4CA003629083F1F00BA3D49 /* LaunchScreen.storyboard */,
+				E4CA003E29083F8E00BA3D49 /* SCNVector3.swift */,
+				E4CA004029083FA300BA3D49 /* SCNNode.swift */,
+				E4CA004229083FCE00BA3D49 /* Pulsing.swift */,
+				E4CA004429083FE900BA3D49 /* PresentationView.swift */,
 			);
 			path = RodionovEgorTestovoeArkit;
 			sourceTree = "<group>";
@@ -139,6 +151,10 @@
 			files = (
 				E4CA003029083F1E00BA3D49 /* ViewController.swift in Sources */,
 				E4CA002C29083F1E00BA3D49 /* AppDelegate.swift in Sources */,
+				E4CA004529083FE900BA3D49 /* PresentationView.swift in Sources */,
+				E4CA004329083FCE00BA3D49 /* Pulsing.swift in Sources */,
+				E4CA004129083FA300BA3D49 /* SCNNode.swift in Sources */,
+				E4CA003F29083F8E00BA3D49 /* SCNVector3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
